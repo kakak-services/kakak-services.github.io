@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Cause Template
+title: Kakak
 url: https://clean-oryx.cloudvent.net
 baseurl:
 google_analytics_key:
@@ -10,13 +10,13 @@ google_analytics_key:
 logo: /siteicon.png
 description: Jekyll template with example content for a not-for-profit organisation.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Cause Template
-  links:
-    - https://github.com/CloudCannon/cause-jekyll-template
+  name: Melvin Ch'ng
+  email: you.email.melvin@gmail.com
+  twitter: melvinyicong
+# social:
+  # name: Cause Template
+  # links:
+    # - https://github.com/CloudCannon/cause-jekyll-template
 
 # -----
 # Build
@@ -52,8 +52,8 @@ defaults:
     values:
       layout: "default"
 
-donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
-newsletter_action: "//your-mailchimp-action-url.com"
+donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/we-need-your-help-9?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
+newsletter_action: "https://gmail.us3.list-manage.com/subscribe/post?u=c6275e7552ba080b116b77d0b&amp;id=7bd25af60c"
 
 plugins:
   - jekyll-sitemap
